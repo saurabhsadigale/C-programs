@@ -1,0 +1,14 @@
+//calculating simple interest
+#include<stdio.h>
+void main()
+{
+    int a,i,d,Si;
+    printf("Enter principle amount==");
+    scanf("%d",&a);
+    printf("Enter rate of interest==");
+    scanf("%d",&i);
+    printf("Enter the duration==");
+    scanf("%d",&d);
+    Si=(a*i*d)/100;
+    printf("The simple interest is==%d",Si);
+}
