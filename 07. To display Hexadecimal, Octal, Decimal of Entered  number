@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+    int a;
+    printf("Enter the number=");
+    scanf("%d",&a);
+    printf("\nHexadecimal number=%x",a);
+    printf("\nOctadecimal number=%o",a);
+    printf("\nDexcimal number=%d",a);
+    
+}
