@@ -1,0 +1,10 @@
+#include<stdio.h> 
+void main()
+{
+    int a;
+    printf("Enter number=\n");
+    scanf("%d",&a);
+    printf("Number after right justification=%10d",a);
+    printf("\nNumber after left justificaction=%5d",a);
+    
+}
